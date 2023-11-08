@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Inter:wght@200&family=Roboto&family=Single+Day&family=Space+Grotesk:wght@500&display=swap');
+
+.RightPanel {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7ecdc;
+    position: relative;
+  }
+  
+  .Img1 {
+    padding-top: 130px;
+    padding-left: 350px;
+  }
+  
+  .heading2 {
+    padding-left: 550px;
+  }
+  
+  .para {
+    margin-top: 10px;
+    padding-left: 400px;
+  }
+  
+  .groupName {
+    display: flex;
+    font-size: 20px;
+    height: 80px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .backButton {
+    display: none;
+    background-color:rgba(255, 255, 255, 1) ;
+    outline: none;
+  }
+
+  .Name {
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  
+  .groupColor {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 30px;
+    color: white;
+  }
+  
+  .noteContainer {
+    background-color: rgba(247, 236, 220, 1);
+  }
+  
+  .note {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px;
+  }
+  
+  .noteInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    position: relative;   
+  }
+  
+  .noteInput textarea {
+    width: 1100px;
+    height: 20%;
+    margin-left: 30px;
+    margin-top: 10px; 
+    padding: 60px;
+    border: 1px solid #ddd;
+    border-radius: 11px; 
+  }
+
+  .noteInput .Vector {
+    position: absolute;
+    right: 130px; 
+    top: 70px; 
+    cursor: pointer;
+  }
+
+
+  .noteList .noteItem {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    padding: 10px;
+  }
+  
+  .noteDateTime {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .noteDate {
+    font-size: 12px;
+    color: rgba(53, 53, 53, 1);
+  }
+  
+  .noteTime {
+    font-size: 12px;
+    color: rgba(53, 53, 53, 1);
+  }
+  
+  .noteContent {
+    font-size: 15px;
+    margin-left: 40px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  
+
+  @media (max-width: 320px) {
+
+    .RightPanel {
+      width: 100%;
+    }
+    
+    .groupColor {
+        width: 30px; 
+        height: 30px;
+        margin-top: 0; 
+        margin-left: 0; 
+    }
+    .backButton {
+      display: block;
+    }
+}
+
+
+ 
+  

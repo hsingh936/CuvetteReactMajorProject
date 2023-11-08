@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Inter:wght@200&family=Roboto&family=Single+Day&family=Space+Grotesk:wght@500&display=swap');
+
+
+.heading1 {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.btn1 {
+    font-family: 'Roboto', sans-serif;
+    width: 230px;
+    height: 30px;
+    border-radius: 11px;
+    margin-top: 40px; 
+    margin-left: 40px;
+    background-color: black;
+    font-size: 20px;
+    color: white; 
+    cursor: pointer;
+}
+
+.group-list ul {
+    list-style: none;
+    padding-left: 40px;
+    padding-top: 30px;  
+    cursor: pointer; 
+}
+  
+  .group-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .group-color {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    background-color: #0073e6; 
+    color: white; 
+  }
+  
+  .group-name {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .selected {
+    background-color: rgba(247, 236, 220, 1);
+    border-top-left-radius: 11px;
+    border-bottom-left-radius: 11px;
+  }
+
+@media (max-width: 320px) {
+  .sidebar {
+    width: 100%;
+  }
+
+  .btn1 {
+    width: 100%;
+    margin: 10px;
+  }
+
+  .group-list ul {
+    padding-left: 10px;
+  }
+
+  .group-color {
+    width: 30px;
+    height: 30px;
+  }
+
+  .group-name {
+    font-size: 18px;
+  }
+}
+  
+
+
+  
